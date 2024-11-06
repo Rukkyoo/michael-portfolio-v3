@@ -110,7 +110,7 @@ export const projects = [
   {
     id: 4,
     title: "Kenwiza Portfolio Site",
-    des: "This website built for my cousin to display his beats from spotify, beatstars and to enable users to book sessions with him.",
+    des: "This was built for my cousin (producer) to display his beats from spotify, beatstars and to enable users to book sessions with him.",
     img: "wizasite.PNG",
     iconLists: ["/re.svg", "/framer.svg", "/tail.svg"],
     link: "https://portfoliowizasite.vercel.app/",
