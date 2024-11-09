@@ -8,8 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title:
-      "I prioritize user centric thinking, client collaboration and fostering open communication ",
+    title: "I prioritize user centric thinking, client collaboration and fostering open communication ",
     description: "",
     className:
       "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh] text-white",
@@ -82,12 +81,11 @@ export const projects = [
       "/tail.svg" /* , "/ts.svg", "/three.svg", "/fm.svg" */,
     ],
     link: "https://crappoweb.netlify.app/",
-    name: "Crappo",
   },
   {
     id: 2,
     title: "Quizzly by Rukky",
-    des: "A simple quiz app built to utilize authentication features, displays questions and shows the scores after each quiz.",
+    des: "A simple quiz app built to utilize authentication features, displays questions and displays the scores at the end of each quiz.",
     img: "/quizzly.PNG",
     iconLists: [
       "/next.svg",
@@ -96,7 +94,6 @@ export const projects = [
       /* , "/ts.svg", "/stream.svg", "/c.svg" */
     ],
     link: "https://quizzly-by-rukky.vercel.app/",
-    name: "Quizzly",
   },
   {
     id: 3,
@@ -109,16 +106,14 @@ export const projects = [
       "/framer.svg" /* , "/ts.svg", "/three.svg", "/c.svg" */,
     ],
     link: "https://jollyweekendtest1.vercel.app/",
-    name: "Jolly",
   },
   {
     id: 4,
     title: "Kenwiza Portfolio Site",
-    des: "This was built for my cousin to display his beats from spotify, beatstars and to enable users to book sessions with him.",
+    des: "This was built for my cousin (producer) to display his beats from spotify, beatstars and to enable users to book sessions with him.",
     img: "wizasite.PNG",
     iconLists: ["/re.svg", "/framer.svg", "/tail.svg"],
     link: "https://portfoliowizasite.vercel.app/",
-    name: "Kenwiza",
   },
 ];
 
@@ -198,19 +193,19 @@ export const workExperience = [
     }, */
   {
     id: 2,
-    title: "Freelance - Jolly Weekend",
+    title: "Freelancing - Jolly Weekend",
     desc: "Developed the Jolly Weekend landing page along with several other pages for a client, worked with another person to produce this.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-  {
-    id: 3,
-    title: "Freelance - Kenwiza.com",
-    desc: "Developed a responsive, user-friendly website for a music producer, showcasing his beats on platforms like BeatStars and Spotify and integrating seamless booking functionality to enhance client accessibility and engagement.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  /* {
+  /*  {
+      id: 3,
+      title: "Freelance App Dev Project",
+      desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp3.svg",
+    },
+    {
       id: 4,
       title: "Lead Frontend Developer",
       desc: "Developed and maintained user-facing features using modern frontend technologies.",

@@ -19,7 +19,8 @@ const RecentProjects = () => {
             key={item.id}
           >
             <PinContainer
-              title={item.name}
+              title="/ui.aceternity.com"
+              href="https://twitter.com/mannupaaji"
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
@@ -35,12 +36,12 @@ const RecentProjects = () => {
                 />
               </div>
 
-              <h1 className="font-bold lg:text-lg md:text-xl text-base line-clamp-1 text-white">
+              <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1 text-white">
                 {item.title}
               </h1>
 
               <p
-                className="lg:text-sm lg:font-normal font-light text-sm line-clamp-2"
+                className="lg:text-xl lg:font-normal font-light text-sm line-clamp-2"
                 style={{
                   color: "#BEC1DD",
                   margin: "1vh 0",
