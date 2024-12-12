@@ -120,6 +120,15 @@ export const projects = [
     link: "https://portfoliowizasite.vercel.app/",
     name: "Kenwiza",
   },
+  {
+    id: 5,
+    title: "Gehricth Restaurant Site",
+    des: "Built to enable users view details under various meals and also check for recipes for selected meals. Still a work in progress",
+    img: "gehricth.PNG",
+    iconLists: ["/next.svg", "/tail.svg"],
+    link: "https://gehricth-web-app.vercel.app/",
+    name: "Gehricth",
+  },
 ];
 
 export const testimonials = [
