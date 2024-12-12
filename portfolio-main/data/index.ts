@@ -99,19 +99,6 @@ export const projects = [
     name: "Quizzly",
   },
   {
-    id: 3,
-    title: "Jolly Weekend",
-    des: "A multi page project built to enable users pay for utility bills and participate in giveaways.",
-    img: "/jollyweekend.PNG",
-    iconLists: [
-      "/next.svg",
-      "/tail.svg",
-      "/framer.svg" /* , "/ts.svg", "/three.svg", "/c.svg" */,
-    ],
-    link: "https://jollyweekendtest1.vercel.app/",
-    name: "Jolly",
-  },
-  {
     id: 4,
     title: "Kenwiza Portfolio Site",
     des: "This was built for my cousin to display his beats from spotify, beatstars and to enable users to book sessions with him.",
