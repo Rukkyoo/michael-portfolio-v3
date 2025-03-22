@@ -1,7 +1,6 @@
 "use client";
 
 import { FaLocationArrow } from "react-icons/fa6";
-
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
@@ -15,68 +14,48 @@ const RecentProjects = () => {
       <div className="flex flex-wrap items-center justify-center p-4 gap-16 mt-10">
         {projects.map((item) => (
           <div
-            className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
+            className="w-[90vw] rounded-lg overflow-hidden border-white shadow-lg bg-indigo-950 hover:shadow-2xl transition-shadow duration-300"
             key={item.id}
           >
-            <PinContainer
-              title={item.name}
-            >
-              <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
-                <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
-                  style={{ backgroundColor: "#13162D" }}
-                >
-                  <img src="/bg.png" alt="bgimg" />
-                </div>
-                <img
-                  src={item.img}
-                  alt="cover"
-                  className="object-cover w-full"
-                />
+            <div className="px-6 py-4">
+              <div className="font-bold text-xl mb-2 text-gray-200">
+                {item.name}
               </div>
-
-              <h1 className="font-bold lg:text-lg md:text-xl text-base line-clamp-1 text-white">
-                {item.title}
-              </h1>
-
-              <p
-                className="lg:text-sm lg:font-normal font-light text-sm line-clamp-2"
-                style={{
-                  color: "#BEC1DD",
-                  margin: "1vh 0",
-                }}
-              >
-                {item.des}
-              </p>
-
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {item.iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
-                    </div>
-                  ))}
-                </div>
-
-                <div className="flex justify-center items-center">
-                  <a href={item.link}
-                  target="_blank"
+              <p className="text-white text-base">{item.des}</p>
+            </div>
+            <div className="px-6 pt-4 pb-2">
+              <span className="flex flex-row gap-2 rounded-full  text-sm font-semibold text-gray-700">
+                {item.iconLists.map((icon, index) => (
+                  <div
+                    key={index}
+                    className="border border-white/[.2] rounded-full  lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                    style={{
+                      transform: `translateX(-${5 * index + 2}px)`,
+                    }}
                   >
-                    <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                      Check Live Site
-                    </p>
-                  </a>
-
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
-                </div>
-              </div>
-            </PinContainer>
+                    <img src={icon} alt="icon5" className="p-2" />
+                  </div>
+                ))}
+              </span>
+            </div>
+            <div className="px-6 py-4 flex justify-between">
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:text-blue-700 font-semibold"
+              >
+                Live Demo
+              </a>
+              <a
+                href={item.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-500 hover:text-gray-700 font-semibold"
+              >
+                GitHub
+              </a>
+            </div>
           </div>
         ))}
       </div>

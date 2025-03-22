@@ -74,15 +74,20 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Crappoweb Landing Page",
-    des: "A simple 2d crypto landing page built during my early days with reactjs and animista animation",
+    title: "Fullstack Task Manager App",
+    des: " A simple fullstack web application built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It allows users to create, read, update, and delete (CRUD) tasks, providing a seamless and intuitive interface for managing daily tasks and to-do lists.",
     img: "/crappoweb.PNG",
     iconLists: [
       "/re.svg",
-      "/tail.svg" /* , "/ts.svg", "/three.svg", "/fm.svg" */,
+      "/tail.svg",
+      "/MongoDB.svg",
+      "/Express.svg",
+      "/Node.js.svg" /*"/three.svg", "/fm.svg" */,
+      ,
     ],
-    link: "https://crappoweb.netlify.app/",
-    name: "Crappo",
+    link: "https://fs-task-manager-app.vercel.app/",
+    name: "Task Manager",
+    github: "https://github.com/Rukkyoo/task-manager-app",
   },
   {
     id: 2,
@@ -97,15 +102,18 @@ export const projects = [
     ],
     link: "https://quizzly-by-rukky.vercel.app/",
     name: "Quizzly",
+    github: "https://github.com/Rukkyoo/Improved-quizzical-app",
   },
-  {
+    {
     id: 4,
-    title: "Kenwiza Portfolio Site",
-    des: "This was built for my cousin to display his beats from spotify, beatstars and to enable users to book sessions with him.",
+    title: "MERN Map",
+    des: "A MERN app that utilizes Google Maps Platform Places New API and Routes API directly to handle address autocomplete and route computation the backend and a slick UI on the frontend to display.",
     img: "wizasite.PNG",
-    iconLists: ["/re.svg", "/framer.svg", "/tail.svg"],
-    link: "https://portfoliowizasite.vercel.app/",
-    name: "Kenwiza",
+    iconLists: ["/re.svg",
+      "/tail.svg"  , "/MongoDB.svg", "/Express.svg", "/Node.js.svg"],
+    link: "https://mern-map.vercel.app/",
+    name: "Mern Map",
+    github: "https://github.com/Rukkyoo/mern-map",
   },
   {
     id: 5,
@@ -115,6 +123,7 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg"],
     link: "https://gehricth-web-app.vercel.app/",
     name: "Gehricth",
+    github: "https://github.com/Rukkyoo/gehricth",
   },
 ];
 
